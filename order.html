@@ -1,0 +1,99 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>Add order page</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 1.36" />
+	<link rel="stylesheet" href="order.css">
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+	
+</head>
+
+<body>
+	<nav class="navbar">
+		<span><h3 class="heading-h3">Take-A-Way</h3></span>
+		<ul class="nav-ul">
+			<li class="nav-li"><a href="home.html">Menu</a></li>
+			<li class="nav-li"><a href="order.html">Add Order</a></li>
+			<li class="nav-li"><a href="records.html">Records</a></li>
+			<li class="nav-li"><a href="index.html">Logout</a></li>
+		</ul>
+	</nav>
+	
+ 
+	
+	<section class="order-container">
+		<h3 class="heading-h2"> Take-A-Way Restaurant</h3>
+	</section>
+	
+	
+	<section>
+		<div class="order-container">
+			
+			<form class="form-section">
+				<div>
+					<h3 class="heading-h3 heading-order">Add Order</h3>
+		
+					<div class="input-group mb-2">
+						<label class="input-group-text" for="inputGroupSelect01">Items</label>
+						<select class="form-select" id="inputGroupSelect01">
+							<option selected>Choose items</option>
+							<option value="1">Tie</option>
+							<option value="2">Coffe</option>
+							<option value="3">Samosa</option>
+							<option value="3">Tari poha</option>
+						</select>
+					</div>
+
+					<div class="input-group mb-2">
+						<span class="input-group-text" id="inputGroup-sizing-default">Price</span>
+						<input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+					</div>
+
+					<div class="input-group mb-2">
+						<label class="input-group-text" for="inputGroupSelect01">Quantity</label>
+						<select class="form-select" id="inputGroupSelect01">
+							<option selected>1</option>
+							<option value="1">2</option>
+							<option value="2">3</option>
+							<option value="3">4</option>
+							<option value="3">5</option>
+							<option value="2">6</option>
+						    <option value="3">7</option>
+							<option value="3">8</option>
+							<option value="2">9</option>
+							<option value="3">10</option>
+    
+						</select>
+					</div>
+  
+					<div class="input-group mb-2">
+						<span class="input-group-text" id="inputGroup-sizing-default">Total</span>
+						<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+					</div>
+
+					<div class="d-grid gap-2">
+						<a class="btn btn-outline-success" href="records.html" role="button">Submit</a>
+					</div>
+
+				</div>
+			</form>
+		</div>
+	</section>
+	
+	
+</body>
+
+</html>
